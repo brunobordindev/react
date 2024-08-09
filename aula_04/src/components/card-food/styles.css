@@ -1,0 +1,30 @@
+img {
+    width: 150px;
+}
+
+.card_container {
+    display: flex;
+    border-radius: 3px;
+}
+
+.content_card {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.content_card p {
+    color: #fff;
+    font-weight: 700;
+}
+
+.content_card button {
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fff;
+}
